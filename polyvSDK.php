@@ -11,8 +11,11 @@ class PolyvSDK {
 	
 		$this->_readtoken 		= "nsJ7ZgQMN0-QsVkscukWt-qLfodxoDFm";
 		$this->_writetoken 	= "Y07Q4yopIVXN83n-MPoIlirBKmrMPJu0";	
-		$this->_privatekey = "DFZhoOnkQf";	
+		$this->_privatekey = "DFZhoOnkQf";
+
+		//付伯峰2
 		$this->_sign = true;//提交参数是否需要签名
+
 	}
 	private function sanitize_for_xml($input) {
 		
